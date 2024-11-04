@@ -1,0 +1,170 @@
+body {
+    font-family: "Roboto", sans-serif;  
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.header, .main, .footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.action-call {
+    background-color: #3882f6;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.action-call {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-signup {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.product-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.photo {
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px 32px;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+img {
+    max-width: 75%;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    max-width: 400px;
+    gap: 5px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 64px auto;
+}
+
+.product-containers {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.product-text {
+    max-width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.quote-text {
+    max-width: 650px;
+}
+
+.quote-attribution {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.action-call {
+    margin: 64px 128px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px 0px;
+}
+
+.action-title {
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.main-signup {
+    margin: 5px 10px;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 2px 15px;
+}
