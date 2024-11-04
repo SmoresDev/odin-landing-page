@@ -63,6 +63,7 @@ a {
 .photo {
     border: 5px solid #3882f6;
     border-radius: 10%;
+    max-height: 256px;
 }
 
 .header {
@@ -81,6 +82,7 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 48px 32px;
+    flex-wrap: wrap;
 }
 
 .main-image {
@@ -112,6 +114,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .product-text {
@@ -127,12 +130,13 @@ img {
 }
 
 .quote-text {
-    max-width: 650px;
+    max-width: 900px;
 }
 
 .quote-attribution {
     justify-self: flex-end;
     align-self: flex-end;
+    padding-right: 128px;
 }
 
 .action-call {
